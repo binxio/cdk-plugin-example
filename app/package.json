@@ -1,0 +1,31 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "bin": {
+    "demo": "bin/demo.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "aws-cdk": "^1.21.1",
+    "@aws-cdk/assert": "^1.21.1",
+    "@types/jest": "^24.0.22",
+    "@types/node": "10.17.5",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-sns": "^1.21.1",
+    "@aws-cdk/aws-sns-subscriptions": "^1.21.1",
+    "@aws-cdk/aws-sqs": "^1.21.1",
+    "@aws-cdk/core": "^1.21.1",
+    "aws-sdk": "^2.607.0",
+    "my-credential-provider": "file:../my-credential-provider"
+  }
+}

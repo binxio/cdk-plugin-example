@@ -1,0 +1,6 @@
+{
+  "app": "npx ts-node bin/demo.ts",
+  "plugin": [
+      "my-credential-provider"
+  ]
+}

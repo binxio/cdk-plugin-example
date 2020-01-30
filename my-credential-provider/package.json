@@ -1,0 +1,22 @@
+{
+  "name": "my-credential-provider",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "10.17.5",
+    "typescript": "~3.7.2"
+  },
+  "peerDependencies": {
+    "aws-cdk": "^1.21.1",
+    "aws-sdk": "^2.607.0"
+  },
+  "dependencies": {
+    "aws-cdk": "^1.21.1",
+    "aws-sdk": "^2.607.0"
+  }
+}
