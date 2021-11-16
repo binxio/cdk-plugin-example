@@ -13,10 +13,10 @@
   },
   "peerDependencies": {
     "aws-cdk": "^1.21.1",
-    "aws-sdk": "^2.607.0"
+    "aws-sdk": "^2.814.0"
   },
   "dependencies": {
     "aws-cdk": "^1.21.1",
-    "aws-sdk": "^2.607.0"
+    "aws-sdk": "^2.814.0"
   }
 }
