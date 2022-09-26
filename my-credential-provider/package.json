@@ -12,11 +12,11 @@
     "typescript": "~3.7.2"
   },
   "peerDependencies": {
-    "aws-cdk": "^1.21.1",
+    "aws-cdk": "^1.174.0",
     "aws-sdk": "^2.607.0"
   },
   "dependencies": {
-    "aws-cdk": "^1.21.1",
+    "aws-cdk": "^1.174.0",
     "aws-sdk": "^2.607.0"
   }
 }
