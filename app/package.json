@@ -25,7 +25,7 @@
     "@aws-cdk/aws-sns-subscriptions": "^1.21.1",
     "@aws-cdk/aws-sqs": "^1.21.1",
     "@aws-cdk/core": "^1.21.1",
-    "aws-sdk": "^2.607.0",
+    "aws-sdk": "^2.814.0",
     "my-credential-provider": "file:../my-credential-provider"
   }
 }
